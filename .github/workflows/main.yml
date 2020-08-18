@@ -11,10 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2      
       - name: Pre-Publish
-        run: 'echo "$TOML_CONTENT" > wrangler.toml'
+        run: 'echo "$WRANGLER_TOML" > wrangler.toml'
         shell: bash
         env:
-          TOML_CONTENT: ${{secrets.TOML_CONTENT}}
+          WRANGLER_TOML: ${{secrets.WRANGLER_TOML}}
       - name: Publish
         uses: cloudflare/wrangler-action@1.2.0
         with:
