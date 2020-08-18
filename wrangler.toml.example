@@ -1,0 +1,6 @@
+name = "worker-autodeploy-template"
+type = "javascript"
+account_id = "<YOUR ACCOUNT ID>"
+workers_dev = true
+route = ""
+zone_id = "<YOUR ZONE ID>"

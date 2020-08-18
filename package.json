@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "worker-autodeploy-template",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 0",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Paolo Tagliaferri <me@paolotagliaferri.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
